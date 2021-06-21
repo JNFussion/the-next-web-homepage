@@ -19,6 +19,15 @@
 </head>
 
 <body>
+  <div class="disclaimer-container">
+    <div class="disclaimer">
+      <button class="btn-disclaimer"><i class="fas fa-times-circle fa-2x"></i></button>
+      <h2>** DISCLAIMER **</h2>
+      <h3>This site is a recreation of The Next Web homepage.</h3>
+      <p>This site was made purely for a self-learning exercise. There isn't any malicious intent.</p>
+    </div>
+  </div>
+
   <nav class="main-navbar">
     <div class="logo-wrapper">
       <a href="#"><img src="tnw.png" alt="logo of the next web" class="logo small"></a>
@@ -43,7 +52,6 @@
   </header>
   <section class="popular">
     <section class="popular-with-img">
-
       <div class="popular-wrapper">
         <article class="article-with-img" id="article1">
           <a href="#"></a>
@@ -72,7 +80,6 @@
           </header>
         </article>
       </div>
-
       <article class="banner">
         <header>
           <h2 class="banner-title">
@@ -85,53 +92,54 @@
         </header>
       </article>
     </section>
-    <section class="popular-with-text">
+    <section class="popular-with-text background-grey">
       <h2>popular articles today</h2>
-      <nav>
+      <nav class="nav-popular-articles">
         <ul>
           <li>
-            <h3>
+            <h3 class="popular-article-title">
               <a href="#">
-                <span>1</span>
-                <span>
+                <span class="number">1</span>
+                <span class="hover-underline">
                   What happens to Bitcoin when billionaires build cryptocurrency miners onthe Moon?
                 </span>
               </a>
             </h3>
           </li>
           <li>
-            <h3>
+            <h3 class="popular-article-title">
               <a href="#">
-                <span>2</span>
-                <span>
+                <span class="number">2</span>
+                <span class="hover-underline">
                   Kraken and Bitfinex are reportedly exploring ways to enter India
                 </span>
               </a>
             </h3>
           </li>
           <li>
-            <h3>
+            <h3 class="popular-article-title">
               <a href="#">
-                <span>3</span>
-                <span>
+                <span class="number">3</span>
+                <span class="hover-underline">
                   Nike now holds patent for blockchain-based sneakers called ‘CryptoKicks’
                 </span>
               </a>
             </h3>
           </li>
           <li>
-            <h3>
+            <h3 class="popular-article-title">
               <a href="#">
-                <span>4</span>
-                <span>So you received the Bitcoin ‘masturbation vid’ email — here’s what to do</span>
+                <span class="number">4</span>
+                <span class="hover-underline">So you received the Bitcoin ‘masturbation vid’ email — here’s what to
+                  do</span>
               </a>
             </h3>
           </li>
           <li>
-            <h3>
+            <h3 class="popular-article-title">
               <a href="#">
-                <span>5</span>
-                <span>
+                <span class="number">5</span>
+                <span class="hover-underline">
                   Try to spend Bill Gates’ $116B fortune in this online shopping game
                 </span>
               </a>
@@ -141,164 +149,185 @@
       </nav>
     </section>
   </section>
-  <section class="latest-articles">
-    <h2>Latest stories</h2>
-    <div class="articles-wrapper">
+  <section class="latest-news">
+    <h2 class="title-section">Latest stories</h2>
+    <div class="news-wrapper">
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2FUntitled-design-7.jpg&signature=f16a169fb5db8eb078e550b2fd3f5eb3"
               alt="">
           </div>
-          <h3 class="title-news">Yo, plastic soup! These tiny swimming bots are coming to destroy you </h3>
-          <div>
+          <header class="news-header">
+            <h3 class="title-news hover-underline">Yo, plastic soup! These tiny swimming bots are coming to destroy you
+            </h3>
             <time datetime="2021-06-11">22 minutes ago</time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2FCamtasia-2021.jpeg&signature=a77e829447892d20a3d98ac63ae555bd"
               alt="">
           </div>
-          <h3 class="title-news">Camtasia 2021 is a down-and-dirty video editor that helps craft pro quality videos
-            without the time and cost </h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline">
+              Camtasia 2021 is a down-and-dirty video editor that helps craft pro quality videos
+              without the time and cost
+            </h3>
             <time datetime="2021-06-11">2 hours ago </time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2Fheader-two.jpg&signature=e2be6c6f063b0720a409de7f70a20608"
               alt="">
           </div>
-          <h3 class="title-news"> My off-grid weekend in an EV proved that my friends are idiots</h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline"> My off-grid weekend in an EV proved that my friends are idiots</h3>
             <time datetime="2021-06-11">2 hours ago </time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2Fboris-cats.jpg&signature=b9728e1d1138be094c306ccf25bfe387"
               alt="">
           </div>
-          <h3 class="title-news">Stop complimenting your colleagues </h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline">Stop complimenting your colleagues </h3>
             <time datetime="2021-06-11">3 hours ago</time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2FQuantum-microscope-hed.jpg&signature=ef8b8ada17fcaa860c0b1bd528cd0a6a"
               alt="">
           </div>
-          <h3 class="title-news">Laser-powered microscopes can destroy some biological samples — quantum tech fixes that
-          </h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline">Laser-powered microscopes can destroy some biological samples —
+              quantum
+              tech fixes that
+            </h3>
             <time datetime="2021-06-11">4 hours ago</time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2FUntitled-design-67.jpg&signature=d0d37ac2365a4fae2af37cc8c200ed67"
               alt="">
           </div>
-          <h3 class="title-news">BYD’s electric school bus will feed electricity back to classrooms</h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline">BYD’s electric school bus will feed electricity back to classrooms
+            </h3>
             <time datetime="2021-06-11">5 hours ago</time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2FCellphone-connectivity-hed-thom-holmes-gNn9766pLeA-unsplash.jpg&signature=889ca7703e39c7111e39f95262183c8e"
               alt="">
           </div>
-          <h3 class="title-news">Is your internet bad? Blame the weather </h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline">Is your internet bad? Blame the weather </h3>
             <time datetime="2021-06-11">5 hours ago</time>
-          </div>
+          </header>
         </a>
       </article>
       <article class="news">
-        <a href="#">
-          <div class="pic-news">
+        <a href="#" class="news-link">
+          <div class="pic-container">
             <img
               src="https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F06%2Fstartup-lessons-plan-gq.jpg&signature=8775c06bfefb053449891c6eef0348a3"
               alt="">
           </div>
-          <h3 class="title-news">5 lessons from the pandemic I hope to remember as a CEO</h3>
-          <div class="date-container">
+          <header class="news-header">
+            <h3 class="title-news hover-underline">5 lessons from the pandemic I hope to remember as a CEO</h3>
             <time datetime="2021-06-11">6 hours ago</time>
-          </div>
+          </header>
         </a>
       </article>
     </div>
-    <div>
-      <div class="btn"><span>all news</span><i class="fas fa-chevron-right"></i></div>
+    <div class="btn-container">
+      <div class="btn grey with-arrow"><a href="#"><span>all news</span><i class="fas fa-chevron-right"></i></a></div>
     </div>
   </section>
-  <section class="channels">
-    <h2 class="title-section">Explore our channels</h2>
-    <div>
-      <article class="channel">
-        <h3 class="title-channel">PLUGG</h3>
-        <p class="synopsis-channel">
-          Your sardonic source for consumer tech stories
-        </p>
-      </article>
-      <article class="channel">
-        <h3 class="title-channel">NEURAL</h3>
-        <p class="synopsis-channel">
-          Human-centric AI news and analysis
-        </p>
-      </article>
-      <article class="channel">
-        <h3 class="title-channel">SHFT</h3>
-        <p class="synopsis-channel">
-          Driving the future of sustainable mobility
-        </p>
-      </article>
-      <article class="channel">
-        <h3 class="title-channel">GROWTH QUARTERS</h3>
-        <p class="synopsis-channel">
-          No-nonsense perpectives on startup growth
-        </p>
-      </article>
-      <article class="channel">
-        <h3 class="title-channel">HARD FORK</h3>
-        <p class="synopsis-channel">
-          Insine money, markets and Big Tech
-        </p>
-      </article>
+  <section class="channels background-grey">
+    <div class="channels-container">
+      <h2 class="title-section">Explore our channels</h2>
+      <div class="channel-wrapper">
+        <article class="channel" id="plugged">
+          <a href="#">
+            <h3 class="title-channel">PLUGG</h3>
+            <p class="synopsis-channel">
+              Your sardonic source for consumer tech stories
+            </p>
+          </a>
+        </article>
+        <article class="channel" id="neural">
+          <a href="#">
+            <h3 class="title-channel">NEURAL</h3>
+            <p class="synopsis-channel">
+              Human-centric AI news and analysis
+            </p>
+          </a>
+        </article>
+        <article class="channel" id="shft">
+          <a href="#">
+            <h3 class="title-channel">SHFT</h3>
+            <p class="synopsis-channel">
+              Driving the future of sustainable mobility
+            </p>
+          </a>
+        </article>
+        <article class="channel" id="growth-quarters">
+          <a href="#">
+            <h3 class="title-channel">GROWTH QUARTERS</h3>
+            <p class="synopsis-channel">
+              No-nonsense perpectives on startup growth
+            </p>
+          </a>
+        </article>
+        <article class="channel" id="hard-fork">
+          <a href="#">
+            <h3 class="title-channel">HARD FORK</h3>
+            <p class="synopsis-channel">
+              Insine money, markets and Big Tech
+            </p>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
   <section class="newsletter-spacer">
-    <h2 class="newsletter">Get the snarkiest newsletter in tech</h2>
-    <p>Subscribe to our twice-weekly <a href="#">Big Spam</a> or check out our <a href="#">other newsletters.</a></p>
-    <form action="#">
-      <div class="input-wrapper">
+    <header class="newsletter-header">
+      <h2 class="newsletter-title">Get the snarkiest newsletter in tech</h2>
+      <p class="newsletter-subtitle">Subscribe to our twice-weekly <a href="#">Big Spam</a> or check out our <a
+          href="#">other newsletters.</a></p>
+    </header>
+    <form action="#" class="newsletter-form">
+      <fielset class="email-container">
+        <input type="email" placeholder="Email">
         <i class="fas fa-envelope"></i>
-        <input type="email">
-        <input type="submit" value="SUBSCRIBE">
-      </div>
+      </fielset>
+      <input type="submit" value="SUBSCRIBE">
     </form>
     <nav class="socials">
       <ul>
@@ -312,63 +341,94 @@
       </ul>
     </nav>
   </section>
-  <section class="videos">
-    <h2 class="title-videos">Watch what we made you </h2>
-    <figure class="main-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UAu4d0K99Vc" title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-      <figcaption>
-        <p>Sonos Roam review: Smart speaker, smarter business</p>
-        <p><time datetime="2021-05-06">May 6, 2021</time></p>
-      </figcaption>
-    </figure>
-    <div class="videos-wrapper">
-      <a href="#">
-        <figure>
-          <img src="https://i.ytimg.com/vi/UAu4d0K99Vc/hqdefault.jpg" alt="">
-          <figcaption>Sonos Roam review: Smart speaker, smarter business</figcaption>
+  <section class="videos background-grey">
+    <div class="section-container">
+      <h2 class="title-section">Watch what we made you </h2>
+      <div class="videos-wrapper">
+        <figure class="main-video">
+          <div class="video-container">
+            <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/UAu4d0K99Vc"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <figcaption>
+            <p class="video-main-title">Sonos Roam review: Smart speaker, smarter business</p>
+            <p class="published-date"><time datetime="2021-05-06">May 6, 2021</time></p>
+          </figcaption>
         </figure>
-      </a>
-      <a href="#">
-        <figure>
-          <img src="https://i.ytimg.com/vi/0OXyJygPSRI/hqdefault.jpg" alt="">
-          <figcaption>Learning guitar is better than meditation</figcaption>
-        </figure>
-      </a>
-      <a href="#">
-        <figure>
-          <img src="https://i.ytimg.com/vi/FAx1wjv2jEE/hqdefault.jpg" alt="">
-          <figcaption>Why your hi-fi setup needs these headphones</figcaption>
-        </figure>
-      </a>
-      <a href="#">
-        <figure>
-          <img src="https://i.ytimg.com/vi/jAIdYernX0w/hqdefault.jpg" alt="">
-          <figcaption>CDs: Fogotten, but still amazing</figcaption>
-        </figure>
-      </a>
-      <a href="#">
-        <figure>
-          <img src="https://i.ytimg.com/vi/lRUewuKBzRg/hqdefault.jpg" alt="">
-          <figcaption>The iPhone 11 Pro range: A retrospective on Apple's best value phone</figcaption>
-        </figure>
-      </a>
+        <aside class="aside-videos">
+          <div class="videos-container">
+            <a href="#">
+              <figure>
+                <img src="https://i.ytimg.com/vi/UAu4d0K99Vc/hqdefault.jpg" alt="">
+                <figcaption class="video-title hover-underline">Sonos Roam review: Smart speaker, smarter business
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#">
+              <figure>
+                <img src="https://i.ytimg.com/vi/0OXyJygPSRI/hqdefault.jpg" alt="">
+                <figcaption class="video-title hover-underline">Learning guitar is better than meditation</figcaption>
+              </figure>
+            </a>
+            <a href="#">
+              <figure>
+                <img src="https://i.ytimg.com/vi/FAx1wjv2jEE/hqdefault.jpg" alt="">
+                <figcaption class="video-title hover-underline">Why your hi-fi setup needs these headphones</figcaption>
+              </figure>
+            </a>
+            <a href="#">
+              <figure>
+                <img src="https://i.ytimg.com/vi/jAIdYernX0w/hqdefault.jpg" alt="">
+                <figcaption class="video-title hover-underline">CDs: Fogotten, but still amazing</figcaption>
+              </figure>
+            </a>
+            <a href="#">
+              <figure>
+                <img src="https://i.ytimg.com/vi/lRUewuKBzRg/hqdefault.jpg" alt="">
+                <figcaption class="video-title hover-underline">The iPhone 11 Pro range: A retrospective on Apple's best
+                  value phone</figcaption>
+              </figure>
+            </a>
+          </div>
+        </aside>
+      </div>
     </div>
   </section>
   <section class="work-with-us">
-    <article>
-      <header>
-        <p>reach your goals</p>
-        <h3>Work with us</h3>
-      </header>
-      <p>
-        TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke
-        innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively,
-        innovate your business, and position your brand in front of a digital-savvy audience?
-      </p>
-      <div class="btn">get in touch</div>
-    </article>
+    <section class="info-work-with-us">
+      <article class="article-work-with-us">
+        <header class="title-section">
+          <p class="tag">reach your goals</p>
+          <h3>Work with us</h3>
+        </header>
+        <p>
+          TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke
+          innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively,
+          innovate your business, and position your brand in front of a digital-savvy audience?
+        </p>
+        <div class="btn blue square"><a href="#">get in touch</a></div>
+      </article>
+      <div class="list">
+        <article class="item">
+          <div class="icon-wrapper"><i class="fas fa-pen-fancy"></i></div>
+          <h2>Media</h2>
+        </article>
+        <article class="item">
+          <div class="icon-wrapper"><i class="fas fa-microphone"></i></div>
+          <h2>Events</h2>
+        </article>
+        <article class="item">
+          <div class="icon-wrapper"><i class="far fa-lightbulb"></i></div>
+          <h2>Spaces</h2>
+        </article>
+        <article class="item">
+          <div class="icon-wrapper"><i class="fas fa-shopping-bag"></i></div>
+          <h2>Programs</h2>
+        </article>
+      </div>
+    </section>
     <nav class="partners">
       <ul>
         <li>
@@ -414,15 +474,15 @@
       </ul>
     </nav>
   </section>
-  <footer>
-    <div>
-      <div>
-        <div>
+  <footer class="main-footer">
+    <div class="footer-wrapper">
+      <div class="footer-header-container">
+        <header class="footer-header">
           <div class="logo">
             <a href="#"><img src="tnw.png" alt="logo of the next web"></a>
           </div>
           <p>The heart of tech</p>
-        </div>
+        </header>
         <nav class="socials">
           <ul>
             <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -461,11 +521,25 @@
         </nav>
       </div>
     </div>
-    <div class="copy-right">
-      <p>TNW is a <strong>Finacial Times</strong> company</p>
+    <div class="copyright">
+      <p>TNW is a <a href="#"><strong>Finacial Times</strong></a> company</p>
       <p>Copyright © 2006—2021, The Next Web B.V. Made with &lt;3 in Amsterdam.</p>
     </div>
   </footer>
+
+  <!-- SCRIPT TO CLOSE THE DISCLAIMER MESSAGE-->
+
+  <script>
+    const disclaimer = document.querySelector('.disclaimer-container');
+    const btn_close = document.querySelector('.btn-disclaimer')
+
+    function close() {
+      disclaimer.classList.add('close');
+    }
+
+    btn_close.addEventListener('click', close);
+  </script>
+
 </body>
 
 </html>
